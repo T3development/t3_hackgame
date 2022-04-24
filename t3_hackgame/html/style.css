@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #2de327;
+}
+
+#all {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+body {
+    background: transparent;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+}
+
+.main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #000;
+    width: 658px;
+    height: 438px;
+    margin-top: -20px;
+}
+
+textarea {
+    padding: 8px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    resize: none;
+    box-shadow: none;
+}
+
+textarea[disabled] {
+    -ms-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: #000;
+}
+
+form {
+    height: 23px;
+}
+
+input[type=text] {
+    padding: 4px;
+    width: 100%;
+    -ms-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: #000;
+    caret-shape: block;
+}
+
+input[type=text]::-ms-clear {
+    display: none;
+}
+
+input [contenteditable] {
+    caret-color: #2de327;
+}
+
+input:focus {
+    outline: none;
+}
+
+progress[value] {
+    width: 98%;
+    height: 15px;
+    margin-left: 6px;
+    margin-top: 4px;
+    background-color: #666;
+}
+
+.prAmber::-webkit-progress-value {
+    background-color: #ffd900;
+}
+
+.prRed::-webkit-progress-value {
+    background-color: #ff0000;
+}
