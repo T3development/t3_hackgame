@@ -17,3 +17,11 @@
 
 > Share some information with your players, definitely the password!
 > Share a little about the commands too
+
+## Event set up
+
+TriggerEvent('t3_hackgame:start', "easy", 30, function(success)
+                if success then
+                    --do stuff here
+                end
+            end)
